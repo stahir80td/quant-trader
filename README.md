@@ -2,7 +2,7 @@
 
 **Real-time multi-strategy consensus engine with lock-free circular buffer architecture**
 
-[![Status](https://img.shields.io/badge/status-production--ready-success.svg)](https://github.com/stahir80td/quantum-trader)
+[![Status](https://img.shields.io/badge/status-production--ready-success.svg)](https://github.com/stahir80td/quant-trader)
 [![Go](https://img.shields.io/badge/go-1.21-blue.svg)](https://go.dev)
 [![React](https://img.shields.io/badge/react-18.2-blue.svg)](https://reactjs.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -494,7 +494,7 @@ This is a portfolio/demonstration project. For production use cases or questions
 **Author:** Sohail Tahir  
 **Linkedin:** https://www.linkedin.com/in/stahir80/
 **GitHub:** [@stahir80td](https://github.com/stahir80td)  
-**Project:** [Quant Trader](https://github.com/stahir80td/quantum-trader)
+**Project:** [Quant Trader](https://github.com/stahir80td/quant-trader)
 
 ---
 
