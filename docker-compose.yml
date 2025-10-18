@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  quantum-trader:
+    build: .
+    container_name: quantum-trader
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+      - BINANCE_WS_URL=wss://stream.binance.com:9443
+    restart: unless-stopped
