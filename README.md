@@ -505,16 +505,16 @@ MIT License - Free to use for learning, portfolios, and non-commercial purposes.
 ---
 
 **Architecture:**
-> "I built a lock-free ring buffer in Go that processes market data with O(1) write operations and zero heap allocations. Multiple goroutines read simultaneously using RWMutex read locks, achieving 3.5x speedup over sequential execution."
+> I built a lock-free ring buffer in Go that processes market data with O(1) write operations and zero heap allocations. Multiple goroutines read simultaneously using RWMutex read locks, achieving 3.5x speedup over sequential execution.
 
 **Quantitative Methods:**
-> "The system implements weighted ensemble voting across 4 uncorrelated strategies. Each signal is conviction-weighted, requiring 3/4 agreement and >60% confidence for strong signals. This reduces false positives while maintaining adaptability across market regimes."
+> The system implements weighted ensemble voting across 4 uncorrelated strategies. Each signal is conviction-weighted, requiring 3/4 agreement and >60% confidence for strong signals. This reduces false positives while maintaining adaptability across market regimes.
 
 **Performance:**
-> "End-to-end latency is 8.3ms at p50 and 12.1ms at p99, with throughput tested to 2,000 ticks/second. The architecture scales horizontally - each instrument runs an independent buffer with linear resource growth."
+> End-to-end latency is 8.3ms at p50 and 12.1ms at p99, with throughput tested to 2,000 ticks/second. The architecture scales horizontally - each instrument runs an independent buffer with linear resource growth.
 
 **Production Thinking:**
-> "I designed for observability from day one. Real-time metrics track latency percentiles, strategy correlation, and execution time. The system handles connection failures gracefully with automatic reconnection and degraded mode operation."
+> I designed for observability from day one. Real-time metrics track latency percentiles, strategy correlation, and execution time. The system handles connection failures gracefully with automatic reconnection and degraded mode operation.
 
 ---
 
