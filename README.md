@@ -491,7 +491,8 @@ The system provides real-time observability:
 
 This is a portfolio/demonstration project. For production use cases or questions:
 
-**Author:** Syed Tahir  
+**Author:** Sohail Tahir  
+**Linkedin:** https://www.linkedin.com/in/stahir80/
 **GitHub:** [@stahir80td](https://github.com/stahir80td)  
 **Project:** [Quant Trader](https://github.com/stahir80td/quantum-trader)
 
